@@ -26,13 +26,13 @@ jobs:
           start: npm run start:ci
           wait-on: "http://localhost:3000"
       - name: Upload screenshot
-        uses: actions/upload-artifact@2.2.0
+        uses: actions/upload-artifact@v2.2.2
         if: failure()
         with:
           name: screenshots
           path: web/cypress/screenshots
       - name: Upload videos
-        uses: actions/upload-artifact@2.2.0
+        uses: actions/upload-artifact@v2.2.2
         if: always()
         with:
           name: videos
