@@ -5,7 +5,7 @@ import PageHeader from '../../src/components/PageHeader';
 import { mount } from 'cypress-react-unit-test';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-context('PagaHeader Component', () => {
+context('PageHeader Component', () => {
 	const baseCss = '/__root/src/assets/styles/global.css';
 	const indexCss = '/__root/src/components/PageHeader/styles.css';
 	it('deve ser renderizado com sucesso', () => {
