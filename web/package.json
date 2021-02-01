@@ -29,6 +29,8 @@
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx --quiet",
 		"lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
 		"coverage:report": "npx nyc report --reporter=html",
+		"cy:run": "npx cypress run",
+		"cy:run:dash": "npx cypress run --record --key f1941f7e-ce01-4135-9459-e0e9bc892137",
 		"cy:run:desktop": "npx cypress run --config viewportWidth=1366",
 		"cy:run:tablet": "npx cypress run --config viewportWidth=1024",
 		"test:ui": "npx cypress run --spec 'cypress/integration/web/**'",
