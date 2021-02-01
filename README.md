@@ -1,14 +1,92 @@
-# Proffy Agilizei Bootcamp
+# Projeto Agilizei Bootcamp - Proffy
 
-## Iniciando o projeto
+## Ambiente
 
-1. Instale as dependências para a web e para o server
-  a. acesse o diretório web: `cd web`
-  b. instale as dependências: `npm install`
-  c. teste o start da aplicação: `npm start`
-  d. se ainda estiver no diretório web, volte para o root com `cd ..`
-  e. acesse o diretório server: `cd server`
-  f. instale as dependências: `npm install`
-  g. teste o start da aplicação: `npm start`
+- [Node.js](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html "Node.js")
+  - (Versão utilizada: 14.15.3)
 
-*Pronto, agora é só acompanhar a aula* ⚡️
+## Configuração
+
+Clone o repositório:
+
+```
+git clone https://github.com/delonborges/agilizei-bootcamp-proffy-project
+```
+
+Acesse a pasta do projeto:
+
+```
+cd agilizei-bootcamp-proffy-project
+```
+
+Acesse a pasta web:
+
+```
+cd web
+```
+
+Efetue a instalação das dependências:
+
+```
+npm install
+```
+
+## Execução
+
+Inicie a execução da API e do projeto web:
+
+```
+npm run start:ci
+```
+
+Inicie o Cypress:
+
+```
+npx cypress open
+```
+
+Executar os testes:
+
+```
+npm run cy:run
+```
+
+Executar os testes em modo "Desktop":
+
+```
+npm run cy:run:desktop
+```
+
+Executar os testes em modo "Tablet":
+
+```
+npm run cy:run:tablet
+```
+
+Executar testes de UI:
+
+```
+npm run test:ui
+```
+
+Executar testes de API:
+
+```
+npm run test:api
+```
+
+Executar testes de componentes:
+
+```
+npm run test:component
+```
+
+## Cypress Dashboard
+
+- [Proffy](https://dashboard.cypress.io/projects/1htiwm/ "Proffy")
+
+Executar os testes, gravando no dashboard:
+
+```
+npm run cy:run:dash
+```

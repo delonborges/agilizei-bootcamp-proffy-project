@@ -1,6 +1,6 @@
 ​Desafio 3:
 
-☐ Adicione testes para um (ou mais, caso prefira) componentes do projeto.
+✔ Adicione testes para um (ou mais, caso prefira) componentes do projeto. @done(21-02-01 15:06)
 ☐ Adicione asserções para os testes criados criados para o POST classes
 ☐ Adicione uma spec para testar o cadastro de novos professores (give-classes)
 
