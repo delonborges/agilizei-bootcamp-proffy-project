@@ -1,5 +1,7 @@
 # Projeto Agilizei Bootcamp - Proffy
 
+[![proffy](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/1htiwm/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/1htiwm/runs)
+
 ## Ambiente
 
 - [Node.js](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html "Node.js")
