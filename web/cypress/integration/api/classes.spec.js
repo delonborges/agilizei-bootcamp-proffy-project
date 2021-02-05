@@ -15,6 +15,12 @@ context('classes endpoint', () => {
 				cost: 1000,
 				schedule: [{ week_day: 0, from: '08:00', to: '09:00' }],
 			},
-		}).then(response => {});
+		}).then(response => {
+			expect(response.status).to.equal(201);
+			expect(response.body[0].week_day).to.be.a('number').equal(0);
+			expect(response.body[0].from).to.be.a('number').equal(480);
+			expect(response.body[0].to).to.be.a('number').equal(540);
+			expect(response.headers).to.have.property('content-type').an('string').equal('application/json; charset=utf-8');
+		});
 	});
 });
