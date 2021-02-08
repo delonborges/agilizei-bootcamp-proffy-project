@@ -4,11 +4,11 @@ context('Landing page', () => {
 	beforeEach(() => {
 		cy.visit('/');
 	});
-	it('Navegar para o cadastro de aulas', () => {
+	it('Browse to class registration', () => {
 		cy.get('div a.give-classes').click();
 		cy.url().should('contain', 'give-classes');
 	});
-	it('Navegar para a pesquisa de professores', () => {
+	it('Browse to available classes', () => {
 		cy.get('div a.study').click();
 		cy.url().should('contain', 'study');
 	});
